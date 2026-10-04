@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -329,6 +330,59 @@ select {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.attendee-directory {
+  margin-top: 24px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px;
+  text-align: left;
+}
+
+.attendee-directory h4 {
+  color: #475569;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.attendee-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.attendee-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.attendee-name {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.attendee-team {
+  background: #e8f4fc;
+  color: #005a9e;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.attendee-empty {
+  color: #64748b;
+  font-style: italic;
+  padding: 8px 0;
 }
 
 /* Team card colors */
